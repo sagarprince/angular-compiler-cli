@@ -1,6 +1,6 @@
 {
   "name": "@angular/compiler-cli",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "10.1.6",
   "description": "Angular - the compiler CLI for Node.js",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -26,7 +26,7 @@
     "yargs": "15.3.0"
   },
   "peerDependencies": {
-    "@angular/compiler": "0.0.0-PLACEHOLDER",
+    "@angular/compiler": "10.1.6",
     "typescript": ">=3.9 <4.1"
   },
   "engines": {
@@ -47,7 +47,26 @@
   },
   "homepage": "https://github.com/angular/angular/tree/master/packages/compiler-cli",
   "ng-update": {
-    "packageGroup": "NG_UPDATE_PACKAGE_GROUP"
+    "packageGroup": [
+      "@angular/core",
+      "@angular/bazel",
+      "@angular/common",
+      "@angular/compiler",
+      "@angular/compiler-cli",
+      "@angular/animations",
+      "@angular/elements",
+      "@angular/platform-browser",
+      "@angular/platform-browser-dynamic",
+      "@angular/forms",
+      "@angular/platform-server",
+      "@angular/platform-webworker",
+      "@angular/platform-webworker-dynamic",
+      "@angular/upgrade",
+      "@angular/router",
+      "@angular/language-service",
+      "@angular/localize",
+      "@angular/service-worker"
+    ]
   },
   "publishConfig": {
     "registry": "https://wombat-dressing-room.appspot.com"
